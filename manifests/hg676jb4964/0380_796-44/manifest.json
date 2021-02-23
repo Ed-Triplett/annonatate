@@ -1,0 +1,48 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://ed-triplett.github.io/annonatate/manifests/hg676jb4964%2F0380_796-44/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Test",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": ""
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/info.json",
+          "@type": "sc:Canvas",
+          "label": "Test",
+          "height": 3820,
+          "width": 5426,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3820,
+                "width": 5426,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
