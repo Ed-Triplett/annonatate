@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "{{site.url}}{{site.baseurl}}/images/Goa",
+  "@id": "{{site.url}}{{site.baseurl}}/Goa-3",
   "height": 1762,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
