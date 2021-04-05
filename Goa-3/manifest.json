@@ -1,0 +1,48 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "Goa/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Goa Map",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": ""
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "Goa/info.json",
+          "@type": "sc:Canvas",
+          "label": "test",
+          "height": 1762,
+          "width": 6071,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "Goa/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1762,
+                "width": 6071,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "Goa",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "Goa/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

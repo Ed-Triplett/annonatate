@@ -1,0 +1,66 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{site.url}}{{site.baseurl}}/images/Goa",
+  "height": 1762,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 110,
+      "width": 379
+    },
+    {
+      "height": 55,
+      "width": 190
+    },
+    {
+      "height": 28,
+      "width": 95
+    },
+    {
+      "height": 14,
+      "width": 47
+    },
+    {
+      "height": 7,
+      "width": 24
+    },
+    {
+      "height": 3,
+      "width": 12
+    },
+    {
+      "height": 2,
+      "width": 6
+    },
+    {
+      "height": 1,
+      "width": 3
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 6071
+}
