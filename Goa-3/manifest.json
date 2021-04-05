@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "Goa/manifest.json",
+  "@id": "{{site.url}}{{site.baseurl}}/Goa-3/manifest.json",
   "@type": "sc:Manifest",
   "label": "Goa Map",
   "metadata": [
@@ -17,9 +17,9 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "Goa/info.json",
+          "@id": "{{site.url}}{{site.baseurl}}/Goa-3/info.json",
           "@type": "sc:Canvas",
-          "label": "test",
+          "label": "Goa Map",
           "height": 1762,
           "width": 6071,
           "images": [
@@ -27,18 +27,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "Goa/full/full/0/default.jpg",
+                "@id": "{{site.url}}{{site.baseurl}}/Goa-3/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1762,
                 "width": 6071,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "Goa",
+                  "@id": "{{site.url}}{{site.baseurl}}/Goa-3",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "Goa/info.json"
+              "on": "{{site.url}}{{site.baseurl}}/Goa-3/info.json"
             }
           ]
         }
